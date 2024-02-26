@@ -1,0 +1,20 @@
+.service-box-1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    left: 0;
+}
+.service-image{
+    z-index: 99;
+    width: 60px;
+    position: relative;
+    top: -40px;
+    left: 0;
+}
