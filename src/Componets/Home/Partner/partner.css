@@ -1,0 +1,14 @@
+.partner-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.official-text{
+    margin: 100px 0px;
+}
+.official-main{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

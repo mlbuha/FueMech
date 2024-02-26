@@ -1,0 +1,43 @@
+.seller-heading {
+    /* margin-top: 160px; */
+    font-weight: 700;
+    text-align: center;
+}
+
+.seller-main {
+    padding: 20px 0px;
+}
+
+.box-1 {
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 250, 201);
+    border-radius: 70px;
+    margin: 0px 10px;
+}
+
+.box-1:hover {
+    transition: 0.5s;
+    box-shadow: 0px 4px 5px 1px black;
+}
+
+.inner-text {
+    padding: 10px;
+}
+
+.seller-main-2 {
+    row-gap: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .seller-heading {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .seller-main-2 {
+        padding: 10px;
+        column-gap: 20px;
+    }
+}

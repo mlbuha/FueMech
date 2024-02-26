@@ -1,0 +1,31 @@
+.cmp-logo{
+    width: 214px;
+    height: 56px;
+}
+.icons{
+    display: flex;
+    
+}
+.footer-main{
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.footer{
+    width: auto;
+    padding-bottom: 20px;
+    background-color: antiquewhite;
+}
+.footer-icons{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.p-logo{
+    margin-right: 10px;
+}
+@media only screen and (max-width: 772px) {
+    .footer-main {
+      flex-wrap: wrap;
+      column-gap: 20px;
+    }
+  }
